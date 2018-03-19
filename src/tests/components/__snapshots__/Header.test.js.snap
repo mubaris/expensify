@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Header correctly 1`] = `
+<header>
+  <h1
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Expensify <img src=\\"/emoji-data/img-apple-64/1f4b0.png\\" class=\\"emoji\\" data-codepoints=\\"1f4b0\\" />",
+      }
+    }
+  />
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    exact={true}
+    to="/"
+  >
+    Dashboard
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    to="/create"
+  >
+    Create
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    ariaCurrent="true"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "Help <img src=\\"/emoji-data/img-apple-64/1f481-200d-2640-fe0f.png\\" class=\\"emoji\\" data-codepoints=\\"1f481-200d-2640-fe0f\\" />",
+      }
+    }
+    to="/help"
+  />
+</header>
+`;
