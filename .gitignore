@@ -61,7 +61,7 @@ typings/
 # next.js build output
 .next
 
-bundle.js
-bundle.js.map
-styles.css
-styles.css.map
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
