@@ -57,7 +57,7 @@ export default class ExpenseForm extends React.Component {
   render() {
     return (
       <div>
-        {this.state.error && <p>{this.state.error}</p>}
+        {this.state.errorMessage && <p>{this.state.errorMessage}</p>}
         <form onSubmit={this.onSubmit}>
           <input
             type="text"
